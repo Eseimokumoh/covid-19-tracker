@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app_header > h1 {
+  color: red;
+  font-size: 2rem;
+}
+ 
+.app_dropdown {
+  background-color: white;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app_left {
+  flex: 0.9;
+}
+
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.app_graph {
+  flex-grow: 1;
+}
+
+.graph_title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 990px) {
+  .app {
+      flex-direction: column;
+  }
+}
